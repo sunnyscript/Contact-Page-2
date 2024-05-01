@@ -1,0 +1,218 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    margin: auto;
+    width: 80%;
+}
+
+.head-conta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    color: #007aff;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #69727a;
+    font-weight: bold;
+}
+
+.nav-link:first-child {
+    margin-left: 0;
+}
+
+a input{
+    margin-left: 15px;
+}
+
+/* Hakkında Sayfası */ 
+
+.questions{
+    width: 80%;
+    text-align: center;
+}
+
+.info:last-child{
+    padding-bottom: 70px;
+}
+
+.info summary{
+    text-align: left;
+    padding: 10px 0px 10px 25px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.questions .info:first-child{
+    margin-top: 90px;
+}
+
+.info .mt-3{
+    padding: 10px 60px 20px 60px;
+    text-align: left;
+}
+
+.mt-3 > #accenture{
+    font-weight: bold;
+}
+
+.mt-3 > #not{
+    padding-top: 10px;
+}
+
+.mt-3 > .links{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mt-3 > .links > p{
+    margin-top: 5px;
+}
+
+.mt-3 > #title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.mt-3 > #telephone{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.mt-3 > #loca{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.mt-3 > #ceo{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.mt-3 > #buttons{
+    border: 1px solid black;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.mt-3 > #media{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.mt-3 > .want{
+    margin-bottom: 20px;
+}
+
+.mt-3 > #corporate{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mt-3 > #job{
+    margin: 20px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.mt-3 > #seeks{
+    margin-top: 20px;
+}
+
+.mt-3 > #all{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.mt-3 > #please{
+    margin: 0px;
+}
+
+#job > #name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jobs > input{
+    width: 400px;
+    margin-top: 10px;
+}
+
+.jobs > textarea{
+    width: 400px;
+    margin-top: 10px;
+}
+
+.haveQuestion > input{
+    width: 400px;
+    margin-top: 10px
+}
+
+.haveQuestion > textarea{
+    width: 400px;
+    margin-top: 10px;
+}
+
+.questions > .titles > label{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.questions > .titles > p{
+    font-weight: bold;
+}
+
+.questions > .titles{
+    text-align: left;
+    margin: 30px 0px 50px 0px;
+}
+
+.contact-info{
+    margin: 50px 0px 50px 0px;
+    text-align: left;
+}
+
+.contact-info label{
+    font-weight: bold; 
+    font-size: 35px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.phone{
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.phone a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.ceo{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    color: gray;
+}
